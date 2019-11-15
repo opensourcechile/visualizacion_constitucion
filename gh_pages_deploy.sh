@@ -1,8 +1,8 @@
 #!/bin/bash
-directory=_site
+directory=build
 branch=gh-pages
 build_command() {
-  jekyll build
+  npm run build
 }
 
 echo -e "\033[0;32mDeleting old content...\033[0m"
