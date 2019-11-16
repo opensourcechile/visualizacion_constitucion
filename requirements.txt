@@ -1,3 +1,4 @@
+diff-match-patch==20181111
 gitdb2==2.0.6
 GitPython==3.0.5
 Markdown==3.1.1
